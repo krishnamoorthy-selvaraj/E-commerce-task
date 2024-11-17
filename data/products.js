@@ -656,5 +656,465 @@ const products = [
         "apparel",
         "mens"
       ]
+    },
+    {
+      id: "id1",
+      image: "images/products/backpack.jpg",
+      name: "Black Backpack",
+      rating: {
+        stars: 4.5,
+        count: 123
+      },
+      priceCents: 2500
+    },
+    {
+      id: "id2",
+      image: "images/products/umbrella.jpg",
+      name: "Large Green Umbrella",
+      rating: {
+        stars: 5,
+        count: 456
+      },
+      priceCents: 2999
+    }
+    ,{
+      id: "id3",
+      image: "images/products/6-piece-non-stick-baking-set.webp",
+      name: "6-piece-non-stick-baking",
+      rating: {
+        stars: 3.5,
+        count: 42
+      },
+      priceCents: 1299
+    }
+    , {
+      id: "id4",
+      image: "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+      name: "plain-cotton-tshirt-2-pack-teal",
+      rating: {
+        stars: 4.5,
+        count: 123
+      },
+      priceCents: 2500
+    },
+    {
+      id: "id5",
+      image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+      name: "athletic-cotton-socks-6-pairs",
+      rating: {
+        stars: 4,
+        count: 342
+      },
+      priceCents: 12000
+    },
+    {
+      id: "id6",
+      image: "images/products/bathroom-rug.jpg",
+      name: "bathroom-rug",
+      rating: {
+        stars: 3,
+        count: 567
+      },
+      priceCents: 7000
+    },
+    {
+      id: "id7",
+      image: "images/products/black-2-slot-toaster.jpg",
+      name: "black-2-slot-toaster",
+      rating: {
+        stars: 5,
+        count: 210
+      },
+      priceCents: 1500
+    },
+    {
+      id: "id8",
+      image: "images/products/blackout-curtain-set-beige.webp",
+      name: "blackout-curtain-set-beige",
+      rating: {
+        stars: 1,
+        count: 430
+      },
+      priceCents: 1200
+    },
+    {
+      id: "id9",
+      image: "images/products/blackout-curtains-black.jpg",
+      name: "blackout-curtains-black",
+      rating: {
+        stars: 2,
+        count: 189
+      },
+      priceCents: 8000
+    },
+    {
+      id: "id10",
+      image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
+      name: "coffeemaker-with-glass-carafe-black",
+      rating: {
+        stars: 4,
+        count: 300
+      },
+      priceCents: 2000
+    },
+    {
+      id: "id11",
+      image: "images/products/cotton-bath-towels-teal.webp",
+      name: "cotton-bath-towels-teal",
+      rating: {
+        stars: 4,
+        count: 145
+      },
+      priceCents: 2800
+    },
+    {
+      id: "id12",
+      image: "images/products/countertop-blender-64-oz.jpg",
+      name: "countertop-blender",
+      rating: {
+        stars: 5,
+        count: 400
+      },
+      priceCents: 5000
+    },
+    {
+      id: "id13",
+      image: "images/products/double-elongated-twist-french-wire-earrings.webp",
+      name: "double-elongated-twist-french-wire-earrings",
+      rating: {
+        stars: 4,
+        count: 350
+      },
+      priceCents: 3000
+    },
+    {
+      id: "id14",
+      image: "images/products/duvet-cover-set-blue-twin.jpg",
+      name: "duvet-cover-set-blue-twin",
+      rating: {
+        stars: 3.5,
+        count: 290
+      },
+      priceCents: 5000
+    },
+    {
+      id: "id15",
+      image: "images/products/electric-glass-and-steel-hot-water-kettle.webp",
+      name: "electric-glass-and-steel-hot-water-kettle",
+      rating: {
+        stars: 4.5,
+        count: 230
+      },
+      priceCents: 850
+    },
+    {
+      id: "id16",
+      image: "images/products/facial-tissue-2-ply-18-boxes.jpg",
+      name: "facial-tissue-2-ply-18-boxes",
+      rating: {
+        stars: 3.5,
+        count: 150
+      },
+      priceCents: 5500
+    },
+    {
+      id: "id17",
+      image: "images/products/men-navigator-sunglasses-brown.jpg",
+      name: "men-navigator-sunglasses-brown",
+      rating: {
+        stars: 4,
+        count: 175
+      },
+      priceCents: 9000
+    },
+    {
+      id: "id18",
+      image: "images/products/floral-mixing-bowl-set.jpg",
+      name: "floral-mixing-bowl-set",
+      rating: {
+        stars: 4.5,
+        count: 220
+      },
+      priceCents: 3000
+    },
+    {
+      id: "id19",
+      image: "images/products/intermediate-composite-basketball.jpg",
+      name: "intermediate-composite-basketball",
+      rating: {
+        stars: 2.5,
+        count: 100
+      },
+      priceCents: 1500
+    },
+    {
+      id: "id20",
+      image: "images/products/kitchen-paper-towels-30-pack.jpg",
+      name: "kitchen-paper-towels-30-pack",
+      rating: {
+        stars: 4.5,
+        count: 310
+      },
+      priceCents: 1000
+    },
+    {
+      id: "id21",
+      image: "images/products/knit-athletic-sneakers-gray.jpg",
+      name: "knit-athletic-sneakers-gray",
+      rating: {
+        stars: 4.5,
+        count: 275
+      },
+      priceCents: 1000
+    },
+    {
+      id: "id22",
+      image: "images/products/knit-athletic-sneakers-pink.webp",
+      name: "knit-athletic-sneakers-pink",
+      rating: {
+        stars: 3.5,
+        count: 90
+      },
+      priceCents: 2000
+    },
+    {
+      id: "id23",
+      image: "images/products/liquid-laundry-detergent-plain.jpg",
+      name: "liquid-laundry-detergent-plain",
+      rating: {
+        stars: 3.5,
+        count: 145
+      },
+      priceCents: 4000
+    },
+    {
+      id: "id24",
+      image: "images/products/luxury-tower-set-6-piece.jpg",
+      name: "luxury-tower-set-6-piece",
+      rating: {
+        stars: 3,
+        count: 180
+      },
+      priceCents: 7000
+    },
+    {
+      id: "id25",
+      image: "images/products/men-athletic-shoes-green.jpg",
+      name: "men-athletic-shoes-green",
+      rating: {
+        stars: 4.5,
+        count: 130
+      },
+      priceCents: 2000
+    },
+    {
+      id: "id26",
+      image: "images/products/men-chino-pants-beige.jpg",
+      name: "men-chino-pants-beige",
+      rating: {
+        stars: 4.5,
+        count: 80
+      },
+      priceCents: 3000
+    },
+    {
+      id: "id27",
+      image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
+      name: "men-cozy-fleece-zip-up-hoodie-red",
+      rating: {
+        stars: 4,
+        count: 190
+      },
+      priceCents: 2000
+    },
+    {
+      id: "id28",
+      image: "images/products/men-golf-polo-t-shirt-blue.jpg",
+      name: "men-golf-polo-t-shirt-blue",
+      rating: {
+        stars: 4.5,
+        count: 210
+      },
+      priceCents: 9500
+    },
+    {
+      id: "id29",
+      image: "images/products/6-piece-non-stick-baking-set.webp",
+      name: "6-piece Non-stick Baking Set",
+      rating: {
+        stars: 3.5,
+        count: 42
+      },
+      priceCents: 1299
+    },
+    {
+      id: "id30",
+      image: "images/products/men-navigator-sunglasses-brown.jpg",
+      name: "men-navigator-sunglasses-brown",
+      rating: {
+        stars: 4,
+        count: 68
+      },
+      priceCents: 2499
+    },
+    {
+      id: "id31",
+      image: "images/products/men-slim-fit-summer-shorts-gray.jpg",
+      name: "men-slim-fit-summer-shorts-gray",
+      rating: {
+        stars: 3,
+        count: 90
+      },
+      priceCents: 1899
+    },
+    {
+      id: "id32",
+      image: "images/products/non-stick-cooking-set-15-pieces.webp",
+      name: "non-stick-cooking-set-15-pieces",
+      rating: {
+        stars: 4.5,
+        count: 145
+      },
+      priceCents: 3299
+    },
+    {
+      id: "id33",
+      image: "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
+      name: "plain-hooded-fleece-sweatshirt-yellow",
+      rating: {
+        stars: 3.5,
+        count: 78
+      },
+      priceCents: 1599
+    },
+    {
+      id: "id34",
+      image: "images/products/round-airtight-food-storage-containers.jpg",
+      name: "round-airtight-food-storage-containers",
+      rating: {
+        stars: 2.5,
+        count: 35
+      },
+      priceCents: 899
+    },
+    {
+      id: "id35",
+      image: "images/products/round-sunglasses-black.jpg",
+      name: "round-sunglasses-black",
+      rating: {
+        stars: 4,
+        count: 152
+      },
+      priceCents: 4999
+    },
+    {
+      id: "id36",
+      image: "images/products/sky-flower-stud-earrings.webp",
+      name: "sky-flower-stud-earrings",
+      rating: {
+        stars: 3,
+        count: 88
+      },
+      priceCents: 1999
+    },
+    {
+      id: "id37",
+      image: "images/products/straw-sunhat.webp",
+      name: "straw-sunhat",
+      rating: {
+        stars: 4.5,
+        count: 204
+      },
+      priceCents: 15999
+    },
+    {
+      id: "id38",
+      image: "images/products/trash-can-with-foot-pedal-50-liter.jpg",
+      name: "trash-can-with-foot-pedal-50-liter",
+      rating: {
+        stars: 5,
+        count: 310
+      },
+      priceCents: 9999
+    },
+    {
+      id: "id39",
+      image: "images/products/umbrella.jpg",
+      name: "umbrella",
+      rating: {
+        stars: 3.5,
+        count: 176
+      },
+      priceCents: 7999
+    },
+    {
+      id: "id40",
+      image: "images/products/vanity-mirror-silver.jpg",
+      name: "vanity-mirror-silver",
+      rating: {
+        stars: 2,
+        count: 50
+      },
+      priceCents: 1799
+    },
+    {
+      id: "id41",
+      image: "images/products/women-beach-sandals.jpg",
+      name: "women-beach-sandals",
+      rating: {
+        stars: 2.5,
+        count: 61
+      },
+      priceCents: 5499
+    },
+    {
+      id: "id42",
+      image: "images/products/women-chiffon-beachwear-coverup-black.jpg",
+      name: "women-chiffon-beachwear-coverup-black",
+      rating: {
+        stars: 4,
+        count: 213
+      },
+      priceCents: 2299
+    },
+    {
+      id: "id43",
+      image: "images/products/women-chunky-beanie-gray.webp",
+      name: "women-chunky-beanie-gray",
+      rating: {
+        stars: 4,
+        count: 132
+      },
+      priceCents: 8499
+    },
+    {
+      id: "id44",
+      image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
+      name: "women-french-terry-fleece-jogger-camo",
+      rating: {
+        stars: 5,
+        count: 32
+      },
+      priceCents: 2498
+    },
+    {
+      id: "id45",
+      image: "images/products/women-knit-ballet-flat-black.jpg",
+      name: "women-knit-ballet-flat-black",
+      rating: {
+        stars: 2,
+        count: 1503
+      },
+      priceCents: 1670
+    },
+    {
+      id: "id46",
+      image: "images/products/women-stretch-popover-hoodie-black.jpg",
+      name: "women-stretch-popover-hoodie-black",
+      rating: {
+        stars: 5,
+        count: 8
+      },
+      priceCents: 2002
     }
   ];
