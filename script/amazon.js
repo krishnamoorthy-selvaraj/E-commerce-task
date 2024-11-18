@@ -64,14 +64,13 @@ const addedMessageTimeouts = {};
 
 
 function updateCartQuantity(){
-  let cartQuantity = 0;
-  cart.forEach((cartItem) => {
-    cartQuantity += cartItem.quantity;
-  })
+  
+  const cartQuantity = calculateCartQuantity();
   document.querySelector('.js-cart-quantity')
   .innerHTML =  cartQuantity;
 }
 
+updateCartQuantity();
 document.querySelectorAll('.js-add-to-cart')
 .forEach((button) =>{
   button.addEventListener('click', () =>{
