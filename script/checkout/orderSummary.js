@@ -97,7 +97,7 @@ import {
           const dateString = deliveryDate.format(
             'dddd, MMMM D'
           );
-          const priceSring = deliveryOption.priceCents 
+          const priceString = deliveryOption.priceCents 
           === 0
           ?'FREE'
           :`$${
@@ -119,7 +119,7 @@ import {
                 ${dateString}
               </div>
               <div class="delivery-option-price">
-                ${priceSring}
+                ${priceString}
               </div>
             </div>
           </div> `
@@ -135,9 +135,11 @@ import {
             const productId = link.dataset.productId;
             removeFromCart(productId);
             
-          const container =  document.querySelector(`.js-cart-item-container-${productId}`);
-          container.remove();
-        
+            const container = document.querySelector(
+              `.js-cart-item-container-${productId}`
+            );
+            container.remove();
+
           updateCartQuantity();
           renderPaymentSummary();
         });
