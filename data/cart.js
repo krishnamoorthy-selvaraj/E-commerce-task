@@ -1,3 +1,6 @@
+import { deliveryOptions,getDeliveryOption } from "./deliveryOptions.js";
+
+
 export let cart;
   loadFromStorage();
 
@@ -21,7 +24,7 @@ function saveToStorage () {
   localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-export function addToCart(productId, deliveryOptionId){
+export function addToCart(productId){
     let matchingItem;
     cart.forEach((item) => {
       if(productId == item.productId){
@@ -29,7 +32,10 @@ export function addToCart(productId, deliveryOptionId){
       }
     });
     const quantitySelector = document.querySelector(`.js-quantity-selector-${productId}`);
-      const quantity = Number(quantitySelector.value);
+    let quantity = 1; // Default quantity
+    if (quantitySelector) {
+      quantity = Number(quantitySelector.value);
+    }
     if(matchingItem){
       matchingItem.quantity += quantity;
     }
@@ -37,10 +43,10 @@ export function addToCart(productId, deliveryOptionId){
       cart.push({
         productId,
         quantity,
-        deliveryOptionId
+        deliveryOptionId:''
       });
     }
-
+    
     saveToStorage();
   }
 
